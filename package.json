@@ -1,6 +1,6 @@
 {
   "name": "@s0kil/tiny-map",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A tiny script for displaying a static map with tiles",
   "author": {
     "name": "Mstislav Zhivodkov",
@@ -11,11 +11,14 @@
   "repository": "github.com:s0kil/tiny-map",
   "main": "index.js",
   "scripts": {
-    "transpile": "npx swc index.js -o index.es5.min.js"
+    "build": "npm run transpile && npm run minify",
+    "transpile": "npx swc index.js -o index.es5.js",
+    "minify": "terser --compress --mangle --output index.min.js -- index.es5.js"
   },
   "devDependencies": {
     "@swc/cli": "^0.1.21",
     "@swc/core": "^1.1.10",
-    "browserslist": "^4.8.2"
+    "browserslist": "^4.8.2",
+    "terser": "^4.4.3"
   }
 }

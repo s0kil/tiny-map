@@ -18,7 +18,7 @@ import tinyMap from "@s0kil/tiny-map";
 #### OR
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@s0kil/tiny-map/index.es5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@s0kil/tiny-map/index.min.js"></script>
 ```
 
 #### Then
