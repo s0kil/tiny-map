@@ -1,6 +1,6 @@
 {
   "name": "@s0kil/tiny-map",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A tiny script for displaying a static map with tiles",
   "author": {
     "name": "Mstislav Zhivodkov",
