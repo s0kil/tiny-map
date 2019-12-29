@@ -2,6 +2,12 @@
 
 A tiny script for displaying a static map with tiles.
 
+![npm (scoped)](https://img.shields.io/npm/v/@s0kil/tiny-map?style=for-the-badge)
+![npm bundle size](https://img.shields.io/bundlephobia/min/@s0kil/tiny-map?style=for-the-badge)
+
+## Install
+`npm i -D @s0kil/tiny-map`
+
 ## Usage
 ```javascript
 tinyMap(document.getElementById("map"), {
