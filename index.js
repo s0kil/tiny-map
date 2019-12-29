@@ -8,7 +8,7 @@
  * @property {number[]} center Geographical center of the map, contains two numbers: [longitude, latitude]
  * @property {number} zoom Zoom of the map
  * @property {string} tileUrl URL template for tiles, ex: `//tile{s}.maps.2gis.com/tiles?x={x}&y={y}&z={z}`
- * @property {string} subdomains Subdomains of the tile server, ex: `0123`
+ * @property {?string} subdomains Subdomains of the tile server, ex: `0123`
  * @property {?number} size Size of the map container. This is an optional parameter, set it if you don't want additional reflow.
  */
 
