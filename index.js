@@ -17,9 +17,9 @@
  * @param {options} options
  */
 export function tinyMap(container, options) {
-  let tileSize = 256;
-  let R = 6378137;
-  let maxLat = 85.0511287798;
+  const tileSize = 256;
+  const R = 6378137;
+  const maxLat = 85.0511287798;
 
   let pixelCenter = lngLatToPoint(options.center, options.zoom);
 
