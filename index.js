@@ -51,7 +51,9 @@ export function tinyMap(container, options) {
 
   function getUrl(x, y) {
     return options.tileUrl
-      .replace("{s}", options.subdomains[Math.abs(x + y) % options.subdomains.length])
+      .replace("{s}",
+        options.subdomains ? options.subdomains[Math.abs(x + y) % options.subdomains.length] : ""
+      )
       .replace("{x}", x)
       .replace("{y}", y)
       .replace("{z}", options.zoom);
