@@ -6,14 +6,28 @@ A tiny script for displaying a static map with tiles.
 ![npm bundle size](https://img.shields.io/bundlephobia/min/@s0kil/tiny-map?style=for-the-badge)
 
 ## Install
+
 `npm i -D @s0kil/tiny-map`
 
 ## Usage
+
+```javascript
+import tinyMap from "@s0kil/tiny-map";
+```
+
+#### OR
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/@s0kil/tiny-map/index.es5.min.js"></script>
+```
+
+#### Then
+
 ```javascript
 tinyMap(document.getElementById("map"), {
-    center: [82.897440725094, 54.980156831455],
-    zoom: 17,
-    tileUrl: "https://tile{s}.maps.2gis.com/tiles?x={x}&y={y}&z={z}&v=1&size=64",
-    subdomains: "0123"
+  center: [82.897440725094, 54.980156831455],
+  zoom: 17,
+  tileUrl: "https://tile{s}.maps.2gis.com/tiles?x={x}&y={y}&z={z}&v=1&size=64",
+  subdomains: "0123"
 });
 ```
