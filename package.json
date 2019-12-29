@@ -9,5 +9,13 @@
   },
   "license": "BSD-2-Clause",
   "repository": "github.com:s0kil/tiny-map",
-  "main": "index.js"
+  "main": "index.js",
+  "scripts": {
+    "transpile": "npx swc index.js -o index.es5.js"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.21",
+    "@swc/core": "^1.1.10",
+    "browserslist": "^4.8.2"
+  }
 }
