@@ -15,7 +15,7 @@ A tiny script for displaying a static map with tiles.
 import tinyMap from "@s0kil/tiny-map";
 ```
 
-#### OR
+#### Or
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/@s0kil/tiny-map/index.min.js"></script>
