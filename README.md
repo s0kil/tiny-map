@@ -25,7 +25,7 @@ import tinyMap from "@s0kil/tiny-map";
 
 ```javascript
 tinyMap(document.getElementById("map"), {
-  center: [82.897440725094, 54.980156831455],
+  center: [82.897440725094, 54.980156831455], // Longitude, Latitude
   zoom: 17,
   tileUrl: "https://tile{s}.maps.2gis.com/tiles?x={x}&y={y}&z={z}&v=1&size=64",
   subdomains: "0123"
